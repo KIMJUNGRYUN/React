@@ -7,7 +7,7 @@ function App() {
     JSON.parse(
       localStorage.getItem("PetData")? localStorage.getItem("PetData") : "[]"
     )
-  );n
+  );
 
   //pets값이 바뀔때마다 실행
   useEffect(() => {
