@@ -65,6 +65,7 @@ setInterval(function () {
 - JSX는 하나의 파일에 자바스크립트와 HTML을 동시에 작성하여 편리하다. 
 **JSX 문법 : 반드시 부모 요소 하나가 감싸는 형태여야 한다.**
 
+
 ​```js
 function App() {
   return (
