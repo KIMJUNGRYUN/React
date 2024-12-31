@@ -38,6 +38,7 @@ createRoot(document.getElementById("root")).render(<App />);
 # js로 html 표시
 
 ![time](https://github.com/user-attachments/assets/aa7c24b0-851f-4443-85d7-7e12d4a70540)
+
 ```js
 function App() {
   return React.createElement("div", null, [
