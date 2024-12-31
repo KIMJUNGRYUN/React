@@ -36,5 +36,5 @@ const Gugudan = () => {
 
 export default Gugudan;
 
-// App.js
+ App.js
 
