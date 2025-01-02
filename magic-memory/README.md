@@ -57,11 +57,13 @@ function App() {
 ```
 
 - 뉴게임 클릭시 카드 섞어서 콘솔에 출력
+  
 ![card](https://github.com/user-attachments/assets/d207f777-f4c6-46bd-8c5c-e226680a4a5b)
 
 <hr>
 
 ## 화면에 CSS 표시
+
 ![new start](https://github.com/user-attachments/assets/d4c63920-47f7-4fba-b0d0-45a43a82777c)
 
 `App 의 buttion 아래에 추가`
@@ -131,7 +133,6 @@ const SingleCard = ({card}) => {
     </div>
   );
 };
-
 export default SingleCard;
 
 ```
