@@ -1,6 +1,6 @@
-## 매직 메모리 게임 만들기
+# 매직 메모리 게임 만들기
 
-# public 폴더 정리
+## public 폴더 정리
 
 ![public](https://github.com/user-attachments/assets/f4100dd3-4bcf-4f3c-8347-4eb30142b4a4)
 
@@ -61,7 +61,7 @@ function App() {
 
 <hr>
 
-# 화면에 CSS 표시
+## 화면에 CSS 표시
 ![new start](https://github.com/user-attachments/assets/d4c63920-47f7-4fba-b0d0-45a43a82777c)
 
 `App 의 buttion 아래에 추가`
