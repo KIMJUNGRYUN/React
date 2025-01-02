@@ -94,7 +94,7 @@ function App() {
 
 <hr>
 
-# SingleCard 분리 및 CSS
+## SingleCard 분리 및 CSS
 
 ![SINGLE](https://github.com/user-attachments/assets/bffce820-5ec1-4449-af38-e80517b28c36)
 
@@ -138,7 +138,7 @@ export default SingleCard;
 
 <hr>
 
-# back 이미지 클릭시 카드정보 출력
+## back 이미지 클릭시 카드정보 출력
 
 ![card id](https://github.com/user-attachments/assets/adbb9a7b-bbb1-4339-8517-966d46472adb)
 
@@ -162,7 +162,7 @@ const SingleCard = ({ card }) => {
 
 <hr>
 
-# App에서 선택 카드 비교
+## App에서 선택 카드 비교
 
 ![card incorret](https://github.com/user-attachments/assets/18aecf5e-9613-4a5c-be43-d432dc2b2db6)
 
@@ -208,7 +208,7 @@ function App() {
 
 <hr>
 
-# matched 추가 매치했을때 체크
+## matched 추가 매치했을때 체크
 
 - matched: false를 처음에 다 주고 맞을때 마다 매치된 카드들의 matched: true 수정.
 
@@ -251,7 +251,7 @@ const cardImages = [
 
 <hr>
 
-# 화면에 표시
+## 화면에 표시
 
 ![stock](https://github.com/user-attachments/assets/079cac09-0a0a-4faf-b817-90baf3d73427)
 
@@ -296,7 +296,7 @@ const cardImages = [
 ​
 ```
 
-# 틀렸을 경우 1초 뒤 원 위치
+## 틀렸을 경우 1초 뒤 원 위치
 
 - 틀렸을 경우 콘솔에 "틀렸네요" 대신에 1초의 대기시간 후 진행 하도록 수정.
 
@@ -304,7 +304,7 @@ const cardImages = [
 setTimeout(() => resetTurn(), 1000);
 ```
 
-# CSS 효과 넣기
+## CSS 효과 넣기
 
 - fliped 클래스가 들어갈때 약간의 시간 0.2s 동안에 보여지도록 하고, 다시 안보여 질때도 반대로 시간을 주어서 뒤집기.
 
@@ -331,7 +331,8 @@ setTimeout(() => resetTurn(), 1000);
 }
 ​```
 
-# 틀렸을경우 바로 선택하지 못하게 하기
+## 틀렸을경우 바로 선택하지 못하게 하기
+
 - 현재는 틀렸을 경우에도 다른 카드를 선택해서 뒤집을수 있지만, 틀렸을 경우 다시 안보이게 되돌아간 후 다른 카드를 선택할 수 있도록 변경.
 
 `App`
@@ -373,7 +374,7 @@ const resetTurn = () => {
 
 <hr>
 
-# 하단에 턴수 표시하기
+## 하단에 턴수 표시하기
 
 - 1.하단에 몇번째 선택해서 맞췄는데 턴수 보여주기
 
