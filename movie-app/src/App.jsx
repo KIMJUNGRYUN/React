@@ -50,6 +50,14 @@ function App() {
     saveToLocalStorage(newList); //저장소에 저장
   }
 
+  //선호작 제거 함수
+  function removeMovie(movie){
+    //필터를 써서 id가 같은 영화가 있으면 제거됨!
+    const newList = favorites.filter((fm) => fm.imdbID !== movie.imdbID)
+    setFavorites(newList)
+    saveToLocalStorage(newList)
+  }
+
   return (
     <div className="container-fluid movie-app">
         <div className='row align-items-center my-4'>
@@ -59,7 +67,7 @@ function App() {
       
     
       <ScrollContainer className="row scroll-container">
-        <MovieList movies={movies} handleClick={addFavoriteMovie} />
+        <MovieList addMovie={true} movies={movies} handleClick={addFavoriteMovie} />
       </ScrollContainer>
 
       <div className='row align-items-center my-4'>
@@ -67,7 +75,7 @@ function App() {
       </div>
 
       <ScrollContainer className="row scroll-container">
-        <MovieList movies={favorites} handleClick={addFavoriteMovie} />
+        <MovieList addMovie={false} movies={favorites} handleClick={removeMovie} />
       </ScrollContainer>
     
     </div>
