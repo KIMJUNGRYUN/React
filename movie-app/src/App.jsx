@@ -45,10 +45,15 @@ function App() {
 
   //선호작 추가 함수
   function addFavoriteMovie(movie){
-    const newList = [...favorites, movie];
-    setFavorites(newList); //스테이트 업데이트
-    saveToLocalStorage(newList); //저장소에 저장
+    if (!favorites.some((fav) => fav.imdbID === movie.imdbID)) {
+        const newList = [...favorites, movie];
+        setFavorites(newList); //스테이트 업데이트
+        saveToLocalStorage(newList); //저장소에 저장
+    }else{
+      alert("이미 추가된 영화입니다.");
+    }
   }
+  
 
   //선호작 제거 함수
   function removeMovie(movie){
