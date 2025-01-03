@@ -11,3 +11,6 @@
 
 `카드 맞추기 게임`
  - [https://github.com/KIMJUNGRYUN/React/tree/main/magic-memory]
+
+`API 활용 검색 구현`
+ - [https://github.com/KIMJUNGRYUN/React/tree/main/tailwind-gallery]
