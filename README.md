@@ -8,3 +8,6 @@
 
 `React 배워보기`
  - [https://github.com/KIMJUNGRYUN/React/tree/main/first-app]
+
+`카드 맞추기 게임`
+ - [https://github.com/KIMJUNGRYUN/React/tree/main/magic-memory]
