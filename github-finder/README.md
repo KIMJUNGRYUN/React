@@ -26,7 +26,8 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-![tailwind](https://github.com/user-attachments/assets/c59ef10c-8681-4015-b289-be04ef52d122)
+![tailwind](https://github.com/user-attachments/assets/a1c50e55-3c95-4ec0-a369-290a2a327969)
+
 
 - 테일윈드.config.js
 
@@ -77,7 +78,8 @@ function App() {
 }
 ```
 
-![test](https://github.com/user-attachments/assets/5f540e32-bb07-448f-9a93-e123757de96a)
+![test](https://github.com/user-attachments/assets/d19733a6-b338-4aec-bc73-a32ba9a9de6b)
+
 
 - 데이지 UI 테마 설정하기
 [daisyUI themes](https://daisyui.com/docs/themes/)
@@ -106,7 +108,8 @@ module.exports = {
 <html lang="ko" data-theme="cupcake">
 ```
 
-![hello word](https://github.com/user-attachments/assets/35060945-35c5-4a0f-8870-c7855b0058ac)
+![hello word](https://github.com/user-attachments/assets/614dfc33-4f15-4125-b30f-2e6b0a6c3929)
+
 
 - 리엑트 emmit 설정, json 설정 파일에 넣기
 
@@ -123,7 +126,8 @@ module.exports = {
 $ npm i react-router-dom react-icons
 ```
 
-![layout](https://github.com/user-attachments/assets/c49e5dbe-eb4d-431c-af7a-cf8e63691721)
+![layout](https://github.com/user-attachments/assets/8abcd825-eb78-4e65-a674-1d3cd63fb819)
+
 
 - 컴포넌츠 > 레이아웃 > Navbar.jsx
 
@@ -153,7 +157,8 @@ function App() {
 }
 ```
 
-![finder](https://github.com/user-attachments/assets/53baaab0-1183-49e1-bd36-b47454d272aa)
+
+![finder](https://github.com/user-attachments/assets/7adffb70-0762-421e-8352-ddb9693eb01e)
 
 
 ```react
@@ -216,7 +221,8 @@ Navbar.propTypes = {
 
 # Footer
 
-![footer](https://github.com/user-attachments/assets/6814bcbf-280a-4070-9a27-e04aa3614d43)
+![footer](https://github.com/user-attachments/assets/578cdeba-907b-4c48-817b-bf5125a6b343)
+
 
 ```react
 function Footer() {
@@ -245,13 +251,15 @@ export default Footer
 ```
 
 
-![content](https://github.com/user-attachments/assets/eb1b07f9-b869-4305-8572-6b63c9229ee6)
+![content](https://github.com/user-attachments/assets/e040306c-1fa0-4288-8ee7-bf139a95cd67)
+
 
 <hr>
 
 # 페이지 라우트
 
-![pageRoute](https://github.com/user-attachments/assets/57028ec6-8f9b-4997-9d68-225ffe9d9669)
+![pageRoute](https://github.com/user-attachments/assets/b57cadb5-d5e6-407f-b575-36c7ba8148e3)
+
 
 - About.jsx
 
@@ -349,14 +357,17 @@ function App() {
 
 - Postman으로 깃허브 API 테스트
 
-![GIT API](https://github.com/user-attachments/assets/673af8e9-a91a-44cd-9f58-86084989dab1)
+![GIT API](https://github.com/user-attachments/assets/605d25d7-6a25-4d04-bd29-d2f9bff5c40f)
 
-![GIT ID API](https://github.com/user-attachments/assets/7ba6e9f4-8f0e-464d-a8f7-d8700eeb513d)
+
+![GIT ID API](https://github.com/user-attachments/assets/9303f244-9357-4839-89fc-1b285c560dde)
+
 
 - 깃허브 api/search/users?q=검색어 
 - 검색어에 해당하는 깃허브 유저들을 찾음.
 
-![git search find](https://github.com/user-attachments/assets/1c9bb818-9e1f-4e13-8d78-aa87a53992cb)
+![git search find](https://github.com/user-attachments/assets/8f324b13-89cf-4500-b846-0fd6f5a74ff3)
+
 
 - 토큰 발급받기
   - setting > developer setting > tokens
@@ -381,7 +392,8 @@ REACT_APP_GITHUB_TOKEN=깃허브의 본인 토큰
 # 유저 리스트
 - components 안에 users 폴더 > UserResult.jsx 파일 생성
 
-![USER](https://github.com/user-attachments/assets/f95b8281-7230-4f9f-8227-1c8634dc9455)
+![USER](https://github.com/user-attachments/assets/59ee5e0b-9405-4eef-8417-fcfbd6006389)
+
 
 - 검색한 유저 결과 보여주기.
 
@@ -423,8 +435,9 @@ function Home() {
 ```
 
 - 시작 home 화면에 '유저결과'글자와 콘솔에 깃허브API에서 fetch로 가져온 데이터 출력.
--
-- ![api conso](https://github.com/user-attachments/assets/38d148d3-277d-4b0e-b8f4-e7c10e9452d6)
+
+![api conso](https://github.com/user-attachments/assets/c4247bd3-33e3-425c-89a3-533707751114)
+
 
 ```react
 function UserResults() {
@@ -446,4 +459,5 @@ return (
 	);
 ```
 
-![taild](https://github.com/user-attachments/assets/d16df2cb-3753-47c2-9a4a-6cab2f447820)
+![taild](https://github.com/user-attachments/assets/e35f7b9c-5ee0-4f3a-a647-69405b4f64b2)
+
