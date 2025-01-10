@@ -375,7 +375,8 @@ function App() {
 
 - 중요한 정보들을 따로 저장할 수 있는 .env 파일 만들기.
 
-![git](https://github.com/user-attachments/assets/0133b690-3408-441d-aaed-4d651e722df4)
+![git](https://github.com/user-attachments/assets/3de09ca5-7cf3-4128-8cd5-6295b1935a50)
+
 
 - .env 파일은 .gitignore에 추가하기(깃허브에 공개하지 않도록)
 
