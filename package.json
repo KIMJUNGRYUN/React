@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-indiana-drag-scroll": "^2.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
