@@ -7,7 +7,7 @@
 $ npx create-react-app github-finder
 ```
 
-![Github](https://github.com/user-attachments/assets/5f584eaa-55d7-4c08-b2c8-24792b5c6d94)
+![Github](https://github.com/user-attachments/assets/87b44697-6479-412d-a381-281c027b1b59)
 
 <hr>
 
